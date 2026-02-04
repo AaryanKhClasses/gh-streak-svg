@@ -1,8 +1,8 @@
 import type { IncomingMessage, ServerResponse } from "node:http"
-import fetchContributionDays from "../dist/github.js"
-import calculateStreak from "../dist/streak.js"
-import { renderErrorSVG, renderSVG } from "../dist/svg.js"
-import loadEnv from "../dist/dotenv.js"
+import fetchContributionDays from "../src/github.js"
+import calculateStreak from "../src/streak.js"
+import { renderErrorSVG, renderSVG } from "../src/svg.js"
+import loadEnv from "../src/dotenv.js"
 
 loadEnv()
 

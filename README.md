@@ -4,7 +4,7 @@ A **minimal, zero-framework GitHub contribution streak SVG generator**.
 This service generates a dynamic SVG showing a user’s current GitHub streak using the GitHub GraphQL API.
 Designed to be **lightweight**, **cache-friendly**, and **README-embeddable**.
 
-Version: `v1.0.0`
+Version: `v1.0.1`
 
 ## Features
 - **Minimal & Fast** - No frameworks, pure TypeScript, optimized for speed
@@ -20,13 +20,13 @@ Version: `v1.0.0`
 To use the service, simply embed the following markdown in your GitHub README (replace `AaryanKhClasses` with your GitHub username):
 
 ```markdown
-![GitHub Streak](https://gh-streak-svg.vercel.app/?user=AaryanKhClasses)
+![GitHub Streak](https://gh-streak-svg-2.vercel.app/?user=AaryanKhClasses)
 ```
 
 ### Example
 **Live:**
 
-![GitHub Streak](https://gh-streak-svg.vercel.app/?user=AaryanKhClasses)
+![GitHub Streak](https://gh-streak-svg-2.vercel.app/?user=AaryanKhClasses)
 
 **Example SVG:**
 
